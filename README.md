@@ -13,11 +13,16 @@ USB-C'den aldığı 5 V'u 3.3 V'a düşüren küçük bir güç kartı.
 | Parça | LCSC no | JLCPCB | Not |
 |---|---|---|---|
 | USB-C konnektör (6 pin) | C456012 | Extended | SHOU HAN TYPE-C 6P, SMD, R/A |
-| 3.3 V LDO | C_____ | Basic | AMS1117-3.3, SOT-223 · 500 mA'de ~0.85 W kayıp → tab altına bakır alan |
-
-
-
-
+| CC dirençleri (×2) | C27834 | Basic | 5.1 kΩ, %1, 0805 |
+| Polyfuse | C5144563 | Extended | FSMD075-1206R · 1206, I_hold 0.75 A, V_max 8 V |
+| TVS | C83329 | Extended | SMAJ6.0A · tek yönlü, V_R 6.0 V, V_C 10.3 V |
+| C_in | C15850 | Basic | 10 µF, 25 V, X5R, 0805 (Samsung CL21A106KAYNNNE) |
+| 3.3 V LDO | C6186 | Basic | AMS1117-3.3, SOT-223 · 500 mA'de ~0.85 W kayıp → tab altına bakır alan |
+| C_out | C7198 | Extended | 22 µF, 10 V tantal, B kılıf (3528), ESR 2.4 Ω |
+| Güç LED'i | C84256 | Basic | Kırmızı, 0805, V_F 1.6–2.6 V |
+| LED direnci | C17513 | Basic | 1 kΩ, %1, 0805 → I_LED ≈ 1.3 mA |
+| Çıkış header'ı | — | — | 1×3, 2.54 mm, THT (5V, 3V3, GND) |
+| Test noktaları | — | — | PCB pad'i (5V, 3V3, GND) |
 
 
 
