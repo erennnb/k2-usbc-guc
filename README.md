@@ -13,11 +13,20 @@ USB-C'den aldığı 5 V'u 3.3 V'a düşüren küçük bir güç kartı.
 | Parça | LCSC no | JLCPCB | Not |
 |---|---|---|---|
 | USB-C konnektör (6 pin) | C456012 | Extended | SHOU HAN TYPE-C 6P, SMD, R/A |
+| 3.3 V LDO | C_____ | Basic | AMS1117-3.3, SOT-223 · 500 mA'de ~0.85 W kayıp → tab altına bakır alan |
+
+
+
+
+
+
+
+
 
 ## CC dirençleri (5.1 kΩ)
 CC1 ve CC2 pinlerinin her biri ayrı bir 5.1 kΩ dirençle GND'ye bağlanır.
 
 <!-- Buraya 2–3 cümleyle kendin yaz:
-     1) Bu dirençler ne işe yarıyor?
-     2) İkisini neden tek dirençle birleştiremeyiz?
+     1) Bu dirençler ne işe yarıyor? anlamadım,
+     2) İkisini neden tek dirençle birleştiremeyiz?anlamadım
      3) Hiç direnç koymazsan ne olur? -->
