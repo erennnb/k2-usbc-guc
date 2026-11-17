@@ -7,7 +7,7 @@ USB-C'den aldığı 5 V'u 3.3 V'a düşüren küçük bir güç kartı.
 - **Çıkış:** 3.3 V, en az 500 mA
 - **Koruma:** polyfuse (aşırı akım) + TVS (gerilim darbesi)
 - **Ekstralar:** güç LED'i, çıkış header'ı (5V, 3V3, GND), test noktaları
-- **Kart:** 2 katman, en fazla 40×30 mm
+- **Kart:** 2 katman, en fazla 51.5×16 mm
 
 ## Parça seçimleri
 | Parça | LCSC no | JLCPCB | Not |
