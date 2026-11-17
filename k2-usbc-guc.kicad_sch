@@ -2487,7 +2487,19 @@
 		(uuid "34a543b8-91be-40cf-ae36-b5679ab0a89f")
 	)
 	(junction
-		(at 194.31 22.86)
+		(at 189.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515ffdd5-6201-460f-85bf-708c41bebb17")
+	)
+	(junction
+		(at 66.04 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a18f61b-6880-48d1-a122-66d0f2338aa9")
+	)
+	(junction
+		(at 185.42 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bf6f452-e971-4c6d-85c6-7e588e6d013c")
@@ -2497,12 +2509,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af1ca20-ca45-4b2c-9b83-6504e338e9cc")
-	)
-	(junction
-		(at 198.12 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b100fbf9-731c-447a-a84b-630efcc925cb")
 	)
 	(junction
 		(at 53.34 54.61)
@@ -2517,7 +2523,7 @@
 		(uuid "c669d9ce-dcbb-4c26-9a5e-7d204ab11c89")
 	)
 	(junction
-		(at 198.12 29.21)
+		(at 189.23 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d12bab92-e35f-4744-9217-23271bf65f57")
@@ -2552,17 +2558,27 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 26.67) (xy 194.31 22.86)
+			(xy 185.42 19.05) (xy 185.42 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08b4fe7e-816b-4b0e-b229-e336377910bc")
+		(uuid "060afea1-b508-496b-8ce1-1c258d42d4e3")
 	)
 	(wire
 		(pts
-			(xy 189.23 29.21) (xy 198.12 29.21)
+			(xy 66.04 26.67) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e54532b-82af-4e06-b865-6bd3598ae450")
+	)
+	(wire
+		(pts
+			(xy 180.34 29.21) (xy 189.23 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 26.67) (xy 54.61 26.67)
+			(xy 50.8 26.67) (xy 58.42 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 26.67) (xy 194.31 26.67)
+			(xy 180.34 26.67) (xy 185.42 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2688,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 31.75) (xy 194.31 35.56)
+			(xy 189.23 39.37) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c82daf-ae04-4d8a-a9d0-b6a50cacb904")
+	)
+	(wire
+		(pts
+			(xy 185.42 31.75) (xy 185.42 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 31.75) (xy 194.31 31.75)
+			(xy 180.34 31.75) (xy 185.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2702,16 +2728,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 35.56) (xy 199.39 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5876e73-bffa-453b-80ed-360f8695a54e")
-	)
-	(wire
-		(pts
 			(xy 115.57 34.29) (xy 130.81 34.29)
 		)
 		(stroke
@@ -2722,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 29.21) (xy 199.39 29.21)
+			(xy 189.23 29.21) (xy 190.5 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 35.56) (xy 198.12 35.56)
+			(xy 185.42 39.37) (xy 189.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 22.86) (xy 199.39 22.86)
+			(xy 185.42 19.05) (xy 190.5 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2762,13 +2778,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 26.67) (xy 67.31 26.67)
+			(xy 62.23 26.67) (xy 66.04 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa7648b5-5013-42d0-8990-a02177e773fd")
+	)
+	(label "VBUS"
+		(at 53.34 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf07d15-2b75-481c-a14a-2aed22e90ef3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2850,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 35.56 90)
+		(at 190.5 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2860,7 +2886,7 @@
 		(dnp no)
 		(uuid "06c67be2-d9df-4165-b207-8dfa05377446")
 		(property "Reference" "#PWR014"
-			(at 205.74 35.56 0)
+			(at 196.85 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +2897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.216 35.56 90)
+			(at 195.326 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2882,7 +2908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 35.56 0)
+			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 35.56 0)
+			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +2930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 35.56 0)
+			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 184.15 29.21 0)
+		(at 175.26 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3172,7 +3198,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ec73f0f-9d41-41a0-b7f7-7c2859d0dec3")
 		(property "Reference" "J2"
-			(at 184.785 21.59 0)
+			(at 175.895 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3182,7 +3208,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 184.785 24.13 0)
+			(at 175.895 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3191,8 +3217,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
-			(at 184.15 29.21 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 175.26 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 29.21 0)
+			(at 175.26 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3240,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 184.15 29.21 0)
+			(at 175.26 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +3270,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 199.39 22.86 270)
+		(at 190.5 19.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3254,7 +3280,7 @@
 		(dnp no)
 		(uuid "214ed487-3b14-4584-8106-5b4e6b0e5e12")
 		(property "Reference" "#PWR012"
-			(at 195.58 22.86 0)
+			(at 186.69 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,7 +3291,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.454 22.86 90)
+			(at 194.564 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3276,7 +3302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 22.86 0)
+			(at 190.5 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +3313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 22.86 0)
+			(at 190.5 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,7 +3324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 22.86 0)
+			(at 190.5 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3348,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 58.42 26.67 90)
+		(at 62.23 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3333,7 +3359,7 @@
 		(fields_autoplaced yes)
 		(uuid "35f58f50-967a-4b66-97b0-371b314b2e0c")
 		(property "Reference" "F1"
-			(at 58.42 20.32 90)
+			(at 62.23 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3343,7 +3369,7 @@
 			)
 		)
 		(property "Value" "0.75A"
-			(at 58.42 22.86 90)
+			(at 62.23 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3352,8 +3378,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
-			(at 63.5 25.4 0)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 26.67 0)
+			(at 62.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,7 +3402,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 58.42 26.67 0)
+			(at 62.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3589,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 199.39 29.21 270)
+		(at 190.5 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3573,7 +3599,7 @@
 		(dnp no)
 		(uuid "54fa549e-1e52-4306-8516-153867b8d4c1")
 		(property "Reference" "#PWR013"
-			(at 195.58 29.21 0)
+			(at 186.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +3610,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 203.708 29.21 90)
+			(at 194.818 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3595,7 +3621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 29.21 0)
+			(at 190.5 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 29.21 0)
+			(at 190.5 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +3643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 29.21 0)
+			(at 190.5 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.78 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -3800,7 +3826,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 198.12 29.21 0)
+		(at 189.23 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3808,10 +3834,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dc033bf-f003-474d-9549-5657b98565a0")
 		(property "Reference" "TP2"
-			(at 200.66 24.6379 0)
+			(at 191.516 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3822,7 +3847,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 200.66 27.1779 0)
+			(at 191.516 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3832,8 +3857,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Artesyn_ATA_SMD"
-			(at 203.2 29.21 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,7 +3869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3855,7 +3880,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 198.12 29.21 0)
+			(at 189.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +4014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.722 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -4071,7 +4096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 51.562 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -4150,7 +4175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 62.865 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4225,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 198.12 35.56 0)
+		(at 189.23 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4208,10 +4233,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2c00c11-95f7-42ee-b31e-841ea5ffe110")
 		(property "Reference" "TP3"
-			(at 200.66 30.9879 0)
+			(at 191.262 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4222,7 +4246,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 200.66 33.5279 0)
+			(at 191.262 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4232,8 +4256,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Artesyn_ATA_SMD"
-			(at 203.2 35.56 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +4268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 35.56 0)
+			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +4279,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 198.12 35.56 0)
+			(at 189.23 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4696,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 194.31 22.86 0)
+		(at 185.42 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4683,7 +4707,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8427e1b-e989-4f55-b6c7-e66dd379564d")
 		(property "Reference" "TP1"
-			(at 196.85 18.2879 0)
+			(at 187.96 14.4779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4694,7 +4718,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 196.85 20.8279 0)
+			(at 187.96 17.0179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4704,8 +4728,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Artesyn_ATA_SMD"
-			(at 199.39 22.86 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 190.5 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 22.86 0)
+			(at 190.5 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4751,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 22.86 0)
+			(at 185.42 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
+		(property "Footprint" "k2_lib:TYPE-C-SMD_TYPE-C-6P_1"
 			(at 39.37 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4877,7 +4901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Adafruit_Feather"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
 			(at 131.7752 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5035,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 152.4 26.67 0)
 			(hide yes)
 			(show_name no)
