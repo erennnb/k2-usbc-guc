@@ -89,9 +89,9 @@ AP2112K dropout'ta çok daha iyi, ama küçük kılıfı 0.85 W'ı atamıyor: 25
 
 | Ortam (Ta) | Tj | 125 °C sınırı |
 |---|---|---|
-| 25 °C | <!-- TODO --> | <!-- TODO --> |
-| 40 °C | <!-- TODO --> | <!-- TODO --> |
-| 60 °C | <!-- TODO --> | <!-- TODO --> |
+| 25 °C | 101,5 °C | 125 °C sınırının altında |
+| 40 °C | 116,5 °C | Sınıra yakın, pay az |
+| 60 °C | 136,5 °C | 125 °C’yi aşıyor |
 
 <!-- TODO: Hangi sıcaklıkta sınır aşılıyor, o durumda ne yapılmalı? -->
 
