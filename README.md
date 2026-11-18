@@ -142,6 +142,8 @@ Yeşil LED'in V_F değeri (2.6–3.1 V) 3.3 V'a çok yakın olduğu için kırm�
 ### LTspice: yük basamağı (0 → 500 mA)
 
 ![LTspice yük basamağı](docs/ltspice-load-step.png)
+![LTspice zoom](docs/ltspice-zoom.png)
+Yük basamağında çıkış kısa süreliğine 2,8 V’a düşüyor, 3,7 V’a fırlıyor ve yaklaşık 10 µs içinde 3,3 V’a oturuyor.
 
 <!-- TODO: Çıkış ne kadar düştü, ne kadar sürede toparlandı? (Model: LT1117-3.3) -->
 
